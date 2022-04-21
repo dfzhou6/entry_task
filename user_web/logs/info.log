@@ -1,0 +1,88 @@
+2022-04-21T13:48:07.273+0800	[34mINFO[0m	logger/logger.go:59	hello info
+2022-04-21T13:48:07.273+0800	[35mDEBUG[0m	logger/logger.go:60	hello debug
+2022-04-21T14:01:41.782+0800	[35mDEBUG[0m	logger/logger.go:65	moduleredis[conn success]
+2022-04-21T14:01:41.783+0800	[35mDEBUG[0m	logger/logger.go:65	moduleclient[conn success]
+2022-04-21T14:03:18.052+0800	[35mDEBUG[0m	logger/logger.go:65	modulegetUserProfile[requestID: 48a9c5287c696f15cda2399284db71e2 data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1]]
+2022-04-21T14:04:23.205+0800	[33mWARN[0m	logger/logger.go:73	moduleeditUserProfile[requestID: 202933d3b30d94eba59e376cc330fda1 request valid error nickname(非法字符)]
+2022-04-21T14:05:37.717+0800	[34mINFO[0m	logger/logger.go:69	modulemain[shutdown server]
+2022-04-21T14:05:37.721+0800	[35mDEBUG[0m	logger/logger.go:65	moduleredis[close success]
+2022-04-21T14:05:37.722+0800	[35mDEBUG[0m	logger/logger.go:65	moduleclient[close success]
+2022-04-21T14:05:37.722+0800	[34mINFO[0m	logger/logger.go:69	modulemain[server exit]
+2022-04-21T14:05:56.167+0800	[35mDEBUG[0m	logger/logger.go:65	moduleredis[conn success]
+2022-04-21T14:05:56.167+0800	[35mDEBUG[0m	logger/logger.go:65	moduleclient[conn success]
+2022-04-21T14:06:06.418+0800	[35mDEBUG[0m	logger/logger.go:65	modulegetUserProfile[requestID: 5b0f2687d8dc950940fc38922499c342 data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1]]
+2022-04-21T14:06:34.209+0800	[34mINFO[0m	logger/logger.go:69	modulemain[shutdown server]
+2022-04-21T14:06:34.215+0800	[35mDEBUG[0m	logger/logger.go:65	moduleredis[close success]
+2022-04-21T14:06:34.216+0800	[35mDEBUG[0m	logger/logger.go:65	moduleclient[close success]
+2022-04-21T14:06:34.216+0800	[34mINFO[0m	logger/logger.go:69	modulemain[server exit]
+2022-04-21T14:06:47.725+0800	[35mDEBUG[0m	logger/logger.go:65	moduleredis[conn success]
+2022-04-21T14:06:47.726+0800	[35mDEBUG[0m	logger/logger.go:65	moduleclient[conn success]
+2022-04-21T14:06:50.606+0800	[35mDEBUG[0m	logger/logger.go:65	modulegetUserProfile[requestID: 96057fda94ef88929fe47ebf4cad96b6 data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1]]
+2022-04-21T14:10:25.855+0800	[34mINFO[0m	logger/logger.go:69	modulemain[shutdown server]
+2022-04-21T14:10:25.859+0800	[35mDEBUG[0m	logger/logger.go:65	moduleredis[close success]
+2022-04-21T14:10:25.859+0800	[35mDEBUG[0m	logger/logger.go:65	moduleclient[close success]
+2022-04-21T14:10:25.859+0800	[34mINFO[0m	logger/logger.go:69	modulemain[server exit]
+2022-04-21T14:10:44.733+0800	[35mDEBUG[0m	logger/logger.go:65	moduleredis[conn success]
+2022-04-21T14:10:44.734+0800	[35mDEBUG[0m	logger/logger.go:65	moduleclient[conn success]
+2022-04-21T14:10:51.448+0800	[35mDEBUG[0m	logger/logger.go:65	modulegetUserProfile[requestID: f7c37d2e3971972c554b4946ec0bfb6b data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1]]
+2022-04-21T14:12:00.060+0800	[34mINFO[0m	logger/logger.go:69	modulemain[shutdown server]
+2022-04-21T14:12:00.061+0800	[35mDEBUG[0m	logger/logger.go:65	moduleredis[close success]
+2022-04-21T14:12:00.063+0800	[35mDEBUG[0m	logger/logger.go:65	moduleclient[close success]
+2022-04-21T14:12:00.063+0800	[34mINFO[0m	logger/logger.go:69	modulemain[server exit]
+2022-04-21T14:12:17.400+0800	[35mDEBUG[0m	moduleredis[conn success]
+2022-04-21T14:12:17.401+0800	[35mDEBUG[0m	moduleclient[conn success]
+2022-04-21T14:12:45.146+0800	[35mDEBUG[0m	modulegetUserProfile[requestID: 2e8d245411ea612de4008fd0c62e016d data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1]]
+2022-04-21T14:13:55.475+0800	[34mINFO[0m	modulemain[shutdown server]
+2022-04-21T14:13:55.478+0800	[35mDEBUG[0m	moduleredis[close success]
+2022-04-21T14:13:55.479+0800	[35mDEBUG[0m	moduleclient[close success]
+2022-04-21T14:13:55.479+0800	[34mINFO[0m	modulemain[server exit]
+2022-04-21T14:14:14.489+0800	[35mDEBUG[0m	module=redis[conn success]
+2022-04-21T14:14:14.490+0800	[35mDEBUG[0m	module=client[conn success]
+2022-04-21T14:14:22.246+0800	[35mDEBUG[0m	module=getUserProfile[requestID: d13e244b99a9d844afb558c1ae35bfad data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1]]
+2022-04-21T14:15:08.079+0800	[34mINFO[0m	module=main[shutdown server]
+2022-04-21T14:15:08.080+0800	[35mDEBUG[0m	module=redis[close success]
+2022-04-21T14:15:08.081+0800	[35mDEBUG[0m	module=client[close success]
+2022-04-21T14:15:08.081+0800	[34mINFO[0m	module=main[server exit]
+2022-04-21T14:15:29.506+0800	[35mDEBUG[0m	redis/redis.go:36	module=redis[conn success]
+2022-04-21T14:15:29.506+0800	[35mDEBUG[0m	client/client.go:22	module=client[conn success]
+2022-04-21T14:15:37.268+0800	[35mDEBUG[0m	handler/user.go:41	module=getUserProfile[requestID: b051da0b7642a53f661e98d0b11b1e26 data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1]]
+2022-04-21T14:19:17.058+0800	[34mINFO[0m	user_web/main.go:54	module=main[shutdown server]
+2022-04-21T14:19:17.059+0800	[35mDEBUG[0m	redis/redis.go:68	module=redis[close success]
+2022-04-21T14:19:17.059+0800	[35mDEBUG[0m	client/client.go:34	module=client[close success]
+2022-04-21T14:19:17.059+0800	[34mINFO[0m	user_web/main.go:61	module=main[server exit]
+2022-04-21T14:19:55.930+0800	[35mDEBUG[0m	redis/redis.go:36	module=redis[conn success]
+2022-04-21T14:19:55.933+0800	[35mDEBUG[0m	client/client.go:22	module=client[conn success]
+2022-04-21T14:20:02.512+0800	[35mDEBUG[0m	handler/base.go:85	module=login[requestID: de9ba2302d620b5f02618274d68a4249 login success map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg token:566b24a3f8260e988e06fe0aba1b83f0 username:user1]]
+2022-04-21T14:20:25.002+0800	[35mDEBUG[0m	handler/user.go:41	module=getUserProfile[requestID: 2150b0ed4df1f6993f63afc828665b61 data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1]]
+2022-04-21T14:20:33.470+0800	[33mWARN[0m	handler/user.go:54	module=editUserProfile[requestID: dff16ae0d2f870ed80b2cc46bd9be84d request valid error nickname(非法字符)]
+user_web/handler.(*UserController).EditUserProfileHandler
+	/Users/felix.zhou/go/src/user_web/handler/user.go:54
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168
+user_web/middleware.CheckTokenExist.func1
+	/Users/felix.zhou/go/src/user_web/middleware/middleware.go:33
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168
+user_web/middleware.GenerateGlobalRequestID.func1
+	/Users/felix.zhou/go/src/user_web/middleware/middleware.go:18
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511
+net/http.serverHandler.ServeHTTP
+	/opt/homebrew/Cellar/go@1.16/1.16.15/libexec/src/net/http/server.go:2868
+net/http.(*conn).serve
+	/opt/homebrew/Cellar/go@1.16/1.16.15/libexec/src/net/http/server.go:1933
+2022-04-21T14:20:55.244+0800	[35mDEBUG[0m	handler/user.go:77	module=editUserProfile[requestID: 97fe89bd90b4b925c35c43ecfb0deead data: map[nickname:123123123 pic_path: username:user1]]
+2022-04-21T14:21:04.274+0800	[35mDEBUG[0m	handler/user.go:131	module=uploadPic[requestID: 918a5af8d713c362a634d02bb25fb674 upload success, data map[avatar:public/uploads/avatars/2022/04/21/UYYJPGxFGaYsyG.jpeg]]
+2022-04-21T14:21:08.225+0800	[35mDEBUG[0m	handler/base.go:130	module=showCaptcha[requestID: de733927d61f7ad7cd3d426c3e744546 generateCaptcha success map[captcha_id:sT3GCMzH913qRQqmDFjX captcha_img:data:image/png;base64,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]]
+2022-04-21T14:22:55.504+0800	[34mINFO[0m	user_web/main.go:54	module=main[shutdown server]
+2022-04-21T14:22:55.505+0800	[35mDEBUG[0m	redis/redis.go:68	module=redis[close success]
+2022-04-21T14:22:55.506+0800	[35mDEBUG[0m	client/client.go:34	module=client[close success]
+2022-04-21T14:22:55.506+0800	[34mINFO[0m	user_web/main.go:61	module=main[server exit]

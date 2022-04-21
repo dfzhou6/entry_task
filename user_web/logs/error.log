@@ -1,0 +1,30 @@
+2022-04-21T13:48:07.273+0800	[31mERROR[0m	logger/logger.go:61	hello error
+2022-04-21T14:06:06.426+0800	[31mERROR[0m	logger/logger.go:77	modulegetUserProfile[requestID: 5b0f2687d8dc950940fc38922499c342 data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1]]
+2022-04-21T14:06:50.606+0800	[31mERROR[0m	logger/logger.go:77	modulegetUserProfile[requestID: 96057fda94ef88929fe47ebf4cad96b6 data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1] wasdw]
+2022-04-21T14:10:51.454+0800	[31mERROR[0m	logger/logger.go:77	modulegetUserProfile[requestID: f7c37d2e3971972c554b4946ec0bfb6b data: map[id:11741 nickname:nicknametest pic_path:/uploads/avatars/2022/04/21/JTRzeIMLPSWXlh.jpeg username:user1] wasdw]
+user_web/pkg/logger.Error
+	/Users/felix.zhou/go/src/user_web/pkg/logger/logger.go:77
+user_web/handler.(*UserController).GetUserProfileHandler
+	/Users/felix.zhou/go/src/user_web/handler/user.go:43
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168
+user_web/middleware.CheckTokenExist.func1
+	/Users/felix.zhou/go/src/user_web/middleware/middleware.go:33
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168
+user_web/middleware.GenerateGlobalRequestID.func1
+	/Users/felix.zhou/go/src/user_web/middleware/middleware.go:18
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/felix.zhou/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511
+net/http.serverHandler.ServeHTTP
+	/opt/homebrew/Cellar/go@1.16/1.16.15/libexec/src/net/http/server.go:2868
+net/http.(*conn).serve
+	/opt/homebrew/Cellar/go@1.16/1.16.15/libexec/src/net/http/server.go:1933

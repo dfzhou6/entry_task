@@ -1,0 +1,57 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+option go_package = ".;proto";
+
+package main;
+
+message LoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message LoginResponse {
+  int64 id = 1;
+  string username = 2;
+  string nickname = 3;
+  string pic_path = 4;
+  int64 create_time = 5;
+  int64 update_time = 6;
+  string salt = 7;
+  string token = 8;
+}
+
+message UserResponse {
+  int64 id = 1;
+  string username = 2;
+  string nickname = 3;
+  string pic_path = 4;
+  int64 create_time = 5;
+  int64 update_time = 6;
+  string salt = 7;
+}
+
+message AuthRequest {
+  string token = 1;
+}
+
+message CreateUserRequest {
+  string username = 1;
+  string password = 2;
+  string nickname = 3;
+}
+
+message EditUserRequest {
+  string token = 1;
+  string username = 2;
+  string nickname = 3;
+  string pic_path = 4;
+}
+
+service UserService {
+  rpc Login(LoginRequest) returns(LoginResponse) {}
+  rpc Logout(AuthRequest) returns(google.protobuf.Empty) {}
+  rpc GetUserProfile(AuthRequest) returns(UserResponse) {}
+  rpc CreateUserProfile(CreateUserRequest) returns(UserResponse) {}
+  rpc EditUserProfile(EditUserRequest) returns(UserResponse) {}
+  rpc Auth(AuthRequest) returns(google.protobuf.Empty) {}
+}
